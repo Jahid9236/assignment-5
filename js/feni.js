@@ -39,7 +39,7 @@ document.getElementById('donation-btn-feni').addEventListener('click', function(
     const div = document.createElement('div');
     div.classList.add('my-10');
     div.innerHTML = `
-        <h4 class="text-xl text-gray-500 py-3 px-4 rounded-md border font-bold text-center">${inputAmountFeni} Taka is successfully donated for Flood Relief at Noakhali, Bangladesh. <br> Date: ${new Date().toLocaleDateString()} , Time: ${new Date().toLocaleTimeString()} </h4>
+        <h4 class="text-xl text-gray-500 py-3 px-4 rounded-md border font-bold text-center">${inputAmountFeni} Taka is successfully donated for Flood Relief at Feni, Bangladesh. <br> Date: ${new Date().toLocaleDateString()} , Time: ${new Date().toLocaleTimeString()} </h4>
     `
 
     document.getElementById('history-block').appendChild(div);
